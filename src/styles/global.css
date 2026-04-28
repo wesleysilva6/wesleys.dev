@@ -395,6 +395,10 @@ section {
   font-weight: 700;
 }
 
+.profile-orb img {
+  border-radius: 20%;
+}
+
 .profile-label {
   margin-bottom: 0.75rem;
   font-size: 1.12rem;

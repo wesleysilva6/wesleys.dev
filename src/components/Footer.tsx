@@ -5,7 +5,7 @@ const footerLinks = [
     href: "https://www.linkedin.com/in/wesleywagnersilva/",
     label: "LinkedIn",
   },
-  { icon: "bi bi-envelope", href: "mailto:contato@seudominio.com", label: "Email" },
+  { icon: "bi bi-envelope", href: "mailto:wesleywagner999@gmail.com", label: "Email" },
 ];
 
 function Footer() {
@@ -13,8 +13,7 @@ function Footer() {
     <footer className="portfolio-footer">
       <div className="container d-flex flex-column flex-lg-row justify-content-between align-items-center gap-3">
         <p className="mb-0">
-          {new Date().getFullYear()} Wesley Silva. Base estrutural pronta para
-          personalizacao.
+          © {new Date().getFullYear()} Wesley Silva. Todos os direitos reservados.
         </p>
 
         <div className="footer-links">

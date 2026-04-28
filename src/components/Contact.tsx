@@ -18,10 +18,10 @@ const channels = [
   {
     icon: "bi bi-envelope",
     label: "Email",
-    value: "wesleydev@software.com",
+    value: "wesleywagner999@gmail.com",
     description: "Canal direto para propostas, freelas e parcerias.",
     cta: "Enviar email",
-    href: "mailto:wesleydev@software.com",
+    href: "mailto:wesleywagner999@gmail.com",
   },
 ];
 

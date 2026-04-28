@@ -1,3 +1,7 @@
+import Arena from "../assets/arena.png";
+import Motors from "../assets/motors.png";
+import Estoque from "../assets/estoque.png";
+
 const projects = [
   {
     label: "NovaWave - Arena",
@@ -5,7 +9,7 @@ const projects = [
     description:
       "Focado para o gerenciamento interno de arenas. Dashboard com visao geral, controle de alunos, modalidades, turmas, mensalidades, gastos, presencas e envio de mensagens com conexao pelo WhatsApp.",
     tech: ["Docker", "Node.js", "PHP", "PostgreSQL", "React", "TypeScript"],
-    image: "",
+    image: Arena,
     imageAlt: "Preview do projeto NovaWave Arena",
     href: "https://github.com/wesleysilva6/NovaWave-Arena",
   },
@@ -13,9 +17,9 @@ const projects = [
     label: "NovaWave - Motors",
     title: "Gerenciamento de Anuncios de Veiculos",
     description:
-      "Focado para o gerenciamento de anuncios de veiculos, com dashboard de visao geral e base pronta para expansao de modulos comerciais.",
+      "Focado para o gerenciamento de anuncios de veiculos. Dashboard com visao geral, cadastro de veiculos, controle de vendas, clientes e historico de vendas com graficos interativos.",
     tech: ["Docker", "PHP", "PostgreSQL", "React", "TypeScript"],
-    image: "",
+    image: Motors,
     imageAlt: "Preview do projeto NovaWave Motors",
     href: "https://github.com/wesleysilva6/NovaWave-Motors",
   },
@@ -25,7 +29,7 @@ const projects = [
     description:
       "Focado para o gerenciamento de estoque com painel de vendas, controle de produtos, vendas, funcionarios, simulacao e historico de vendas com graficos interativos.",
     tech: ["Laravel", "PHP", "React", "TypeScript", "Docker"],
-    image: "",
+    image: Estoque,
     imageAlt: "Preview do projeto NovaWave Estoque",
     href: "https://github.com/wesleysilva6/Refactor.NovaWave-Estoque",
   },

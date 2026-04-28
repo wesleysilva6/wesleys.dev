@@ -1,3 +1,5 @@
+import Perfil from "../assets/perfil.png";
+
 const facts = [
   { label: "Atuação", value: "Suporte + desenvolvimento" },
   { label: "Funcionário", value: "Magazine do Povo" },
@@ -15,7 +17,9 @@ function About() {
         <div className="row g-4 align-items-stretch">
           <div className="col-lg-4">
             <article className="glass-card about-card about-card--profile">
-              <div className="profile-orb">WS</div>
+              <div className="profile-orb">
+                <img src={Perfil} width={110} height={110} alt="Foto de perfil" />
+              </div>
               <h3 className="profile-label">Wesley Wagner Nunes Silva</h3>
               <p className="section-note">
                 Analista de Suporte Computacional | Software Developer
