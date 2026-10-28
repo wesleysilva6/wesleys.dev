@@ -16,8 +16,6 @@
 [Funcionalidades](#-funcionalidades) •
 [Tecnologias](#-tecnologias-utilizadas) •
 [Projetos](#-projetos-apresentados-no-portfólio) •
-[Como Executar](#-como-executar-o-projeto) •
-[Estrutura](#-estrutura-do-projeto) •
 [Contato](#-contato)
 
 </div>
@@ -68,76 +66,6 @@ O design une elementos visuais cyberpunk/tech — como o efeito de chuva de cód
 | **NovaWave - Arena** | Gerenciamento interno de arenas com dashboard, controle de alunos, turmas, mensalidades e integração via WhatsApp. | `Docker`, `Node.js`, `PHP`, `PostgreSQL`, `React`, `TypeScript` | [Repositório](https://github.com/wesleysilva6/NovaWave-Arena) |
 | **NovaWave - Motors** | Plataforma de gestão de anúncios de veículos, controle de vendas, clientes e gráficos interativos. | `Docker`, `PHP`, `PostgreSQL`, `React`, `TypeScript` | [Repositório](https://github.com/wesleysilva6/NovaWave-Motors) |
 | **NovaWave - Estoque** | Sistema para controle de estoque e painel de vendas com métricas e histórico. | `Laravel`, `PHP`, `React`, `TypeScript`, `Docker` | [Repositório](https://github.com/wesleysilva6/Refactor.NovaWave-Estoque) |
-
----
-
-## 💻 Como Executar o Projeto
-
-### Pré-requisitos
-Certifique-se de ter instalado em sua máquina:
-- [Node.js](https://nodejs.org/) (versão 18 ou superior)
-- [Git](https://git-scm.com/)
-- Gerenciador de pacotes (`npm`, `yarn` ou `pnpm`)
-
-### Passo a Passo
-
-1. **Clone o repositório:**
-   ```bash
-   git clone https://github.com/wesleysilva6/wesleys.dev.git
-   ```
-
-2. **Acesse a pasta do projeto:**
-   ```bash
-   cd wesleys.dev
-   ```
-
-3. **Instale as dependências:**
-   ```bash
-   npm install
-   ```
-
-4. **Inicie o servidor de desenvolvimento:**
-   ```bash
-   npm run dev
-   ```
-
-5. **Abra no navegador:**
-   Acesse `http://localhost:5173` para visualizar o portfólio.
-
-### Outros Scripts Úteis
-
-- `npm run build`: Compila o TypeScript e gera os arquivos otimizados para produção no diretório `dist/`.
-- `npm run preview`: Executa localmente o build de produção para testes pré-deploy.
-- `npm run lint`: Analisa o código com o ESLint para verificar padrões e possíveis erros.
-
----
-
-## 📁 Estrutura do Projeto
-
-```plaintext
-wesleys.dev/
-├── public/                 # Arquivos públicos e estáticos
-├── src/
-│   ├── assets/             # Imagens dos projetos, favicons e avatar
-│   ├── components/         # Componentes modulares da interface
-│   │   ├── About.tsx       # Seção sobre mim e biografia
-│   │   ├── Contact.tsx     # Canais de contato e links sociais
-│   │   ├── Footer.tsx      # Rodapé com créditos
-│   │   ├── Hero.tsx        # Apresentação principal com efeito Matrix
-│   │   ├── Journey.tsx     # Linha do tempo profissional e histórico
-│   │   ├── Navbar.tsx      # Barra de navegação e seletor de tema
-│   │   ├── Projects.tsx    # Cards com vitrine de projetos
-│   │   └── Skills.tsx      # Habilidades técnicas e categorias
-│   ├── styles/
-│   │   └── global.css      # Variáveis de temas, glassmorphism e estilos globais
-│   ├── App.tsx             # Componente raiz e gerenciamento de tema
-│   ├── main.tsx            # Ponto de entrada da aplicação React
-│   └── vite-env.d.ts       # Declarações de tipos do Vite
-├── index.html              # HTML base da aplicação
-├── package.json            # Dependências e scripts do projeto
-├── tsconfig.json           # Configurações do TypeScript
-└── vite.config.ts          # Configurações do Vite
-```
 
 ---
 
