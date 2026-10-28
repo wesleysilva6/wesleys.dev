@@ -1,7 +1,7 @@
 import Perfil from "../assets/perfil.png";
 
 const facts = [
-  { label: "Atuação", value: "Suporte + desenvolvimento" },
+  { label: "Atuação", value: "Suporte + Desenvolvimento" },
   { label: "Funcionário", value: "Magazine do Povo" },
   { label: "Residência", value: "Douradina, PR" },
 ];
